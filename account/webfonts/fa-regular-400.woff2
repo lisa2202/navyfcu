@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  lang="en" xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Navy Federal Credit Union: 404 File Not Found</title>
+	
+	<link rel="stylesheet" href="resources/css/404.css" />
+	
+	<script type="text/javascript">
+		//*****************Google Analytics Code*********************
+		function current_top_domain() {
+			var domain_parts = window.location.hostname.split('.');
+			var part_count = domain_parts.length;
+			return "." + domain_parts[part_count-2] + "." + domain_parts[part_count-1];
+		}
+		
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-18022610-1']);
+		_gaq.push(['_setDomainName', 'none']);
+		_gaq.push(['_setAllowLinker', true]);;
+		_gaq.push(['_trackPageview']);
+	</script>
+</head>
+
+<body>
+	<div class="pagebox">
+		<div id="logolayer">
+			<a href="https://www.navyfederal.org/index.php">
+				<img src="https://www.navyfederal.org/images/structure/nfculogo<%=staticAssetsVersionInfoIMAGES%>.png" alt="Navy Federal Credit Union" width="262" height="72" border="0" />
+			</a>
+		</div>
+		
+		<div id="pagecontent" align="center">
+		  	<h1>FILE NOT FOUND</h1>
+		    <p>We're sorry, but you’ve reached a page that has moved or is no longer available.</p>
+		    <p>Please visit, <a href="https://www.navyfederal.org/index.php">www.navyfederal.org</a></p>
+	  	</div>
+  	</div>
+  	
+	<script type="text/javascript">
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+		})();
+	</script>
+</body>
+</html>

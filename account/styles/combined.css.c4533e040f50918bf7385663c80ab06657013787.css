@@ -1,0 +1,49 @@
+﻿@media print
+{
+
+    /*NAVIGATION MENU*/
+    .section-tabs {
+        display: none;
+    }
+   
+    /* IRA PLAN SUMMARY */
+	.account-iraplansummary-plan-statements { clear: both; float: left; width: 100%; padding: 0 40px 0 0; margin: 40px 0 0 0; }
+	.account-iraplansummary-plan-statements .yearSelector { height: 40px; padding: 0 0 0 10px; }
+    .account-iraplansummary-plan-statements .yearSelector .year { font-weight: bold; margin: 12px 0 0; padding: 7px 20px 0; height: 20px; display: none; }
+    .account-iraplansummary-plan-statements .yearSelector .year.active { display: block !important; font-size: 24px; }
+    .account-iraplansummary-plan-statements .yearSelector .printStatements { display: none; }
+    .account-iraplansummary-plan-statements	.statements { width: 100%; }
+    .account-iraplansummary-plan-statements	.statements .statement { width: 100%; line-height: 30px; clear: both; float: left; }
+    .account-iraplansummary-plan-statements	.statements .statement > span { padding: 0 10px; }
+    .account-iraplansummary-plan-statements	.statements .statement .statement-text { width: 300px; }
+    .account-iraplansummary-plan-statements	.statements .statement .statement-amount { float: right; font-weight: bold; }
+    
+    /* TRANSFERS */
+   .maketransfers-confirmation  .iconCheckSpacing { margin-right: 5px; float:left; }
+   .maketransfers-confirmation  div.results > div { padding-bottom: 15px; padding-top: 15px; }
+   .maketransfers-confirmation  .confirmlabel { float: left; font-weight:bold; text-align: left; width: 160px; }
+   .maketransfers-confirmation  .confirmregularlabel { float: left; text-align: right; }
+   .maketransfers-confirmation  .SucessMessage { font-weight:bold; padding-left: 15px; padding-top: 20px !important; font-size:15px; vertical-align:middle; margin-left: 20px; margin-right: 15px; }
+   .maketransfers-confirmation  .confirmcontentfield { float: left; }
+   .maketransfers-confirmation  .confirm-donebutton{ display: none !important; }
+   .transfers-dashboard-transfershistory, .transfers-dashboard-membertomemberaccounts-section, .transfers-dashboard-externalaccounts-section { display: none !important; }
+   
+   /* BALANCE TRANSFERS */
+   .makebalancetransfers-confirmation  .iconCheckSpacing { margin-right: 5px; float:left; }
+   .makebalancetransfers-confirmation  div.results > div { padding-bottom: 15px; padding-top: 15px; }
+   .makebalancetransfers-confirmation  .confirmlabel { float: left; font-weight:bold; text-align: left; width: 160px; }
+   .makebalancetransfers-confirmation  .SucessMessage { font-weight:bold; padding-left: 15px; padding-top: 20px !important; font-size:15px; vertical-align:middle; margin-left: 20px; margin-right: 15px; }
+   .makebalancetransfers-confirmation  .confirmcontentfield { float: left; }
+   
+   /*ACCOUNT ACTIVITY*/
+   .accounts-accountsactivitywidget .creditcardBox { -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
+   .accounts-accountsactivitywidget .search-container input[type="text"], .jqTransformSelectWrapper.transactions-filter, .jqTransformSelectWrapper.search-date-range, .jqTransformSelectWrapper.trxAccountsMultiselect { -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
+   
+   /*SPENDING*/
+   .Charts, .BudgetGreyBand, .BudgetHeaderLineManageMonth, #ManageBudgetContainer{ -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
+   #ManageBudgetContainer, #ManageBudgetContainer .wrapper .slider, #ManageBudgetContainer .wrapper .slider .ui-slider-handle, #ManageBudgetContainer .wrapper .slider .ui-slider-range { -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; }
+   #ManageBudgetContainer .wrapper .slider .ui-slider-handle { background: #e2e4e7 !important; }
+   #ManageBudgetContainer .wrapper .slider .ui-slider-range { background: #135397 !important; }
+
+}
+

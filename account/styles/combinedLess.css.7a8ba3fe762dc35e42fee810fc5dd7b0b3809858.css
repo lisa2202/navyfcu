@@ -1,0 +1,236 @@
+﻿/* 8pt */
+/* 10pt */
+/* 11pt */
+/* 12pt */
+/* 13pt */
+/* 14pt */
+/* 15pt */
+/* 18pt */
+/* 19pt */
+/* 23pt */
+/* 28pt */
+/* 31pt */
+/* 50pt */
+/* 8pt */
+/* 10pt */
+/* 11pt */
+/* 12pt */
+/* 13pt */
+/* 14pt */
+/* 15pt */
+/* 18pt */
+/* 19pt */
+/* 23pt */
+/* 28pt */
+/* 31pt */
+/* 50pt */
+.usercontrols h1 {
+  margin-top: 0.5em;
+  font-size: 22pt;
+}
+.usercontrols p {
+  margin-top: 0.5em;
+}
+.usercontrols code {
+  font-family: monospace, sans-serif;
+  color: #009900;
+}
+.usercontrols .allLinks {
+  zoom: 1;
+}
+.usercontrols .allLinks:before,
+.usercontrols .allLinks:after {
+  content: "";
+  display: table;
+}
+.usercontrols .allLinks:after {
+  clear: both;
+}
+.usercontrols .allLinksButton {
+  display: inline-block;
+  zoom: 1;
+}
+.usercontrols .allLinksButton:before,
+.usercontrols .allLinksButton:after {
+  content: "";
+  display: table;
+}
+.usercontrols .allLinksButton:after {
+  clear: both;
+}
+.usercontrols .checkbox label {
+  float: left;
+}
+.usercontrols .checkbox input {
+  float: left;
+}
+.usercontrols .hiddenVisually {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.usercontrols .toc {
+  position: relative;
+  width: 928px;
+  border: solid 1px #cccccc;
+  padding: 0;
+  margin: 10px 0 20px 0;
+}
+.usercontrols .toc > ul {
+  width: 170px;
+  padding: 10px;
+  overflow: visible;
+  border-right: solid 1px #cccccc;
+  background-color: #f6f6f6;
+  color: #666666;
+}
+.usercontrols .toc > ul > li {
+  position: relative;
+  width: 908px;
+  cursor: pointer;
+}
+.usercontrols .toc > ul > li.inactive {
+  color: #bbbbbb;
+}
+.usercontrols .toc > ul > li > p {
+  position: absolute;
+  left: 200px;
+  top: 0;
+  display: none;
+  margin-top: 0;
+}
+.usercontrols .toc > ul > li.active > p {
+  display: block;
+}
+.usercontrols .toc > ul:hover > li.active > p {
+  display: none;
+}
+.usercontrols .toc > ul:hover > li:hover {
+  color: #666666;
+}
+.usercontrols .toc > ul:hover > li:hover > p {
+  display: block;
+}
+.usercontrols > table {
+  border-collapse: collapse;
+  border: 0;
+}
+.usercontrols > table > * > tr {
+  background: transparent !important;
+}
+.usercontrols > table > thead > tr > th {
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+  color: #ee0000 !important;
+}
+.usercontrols > table > tbody > tr > td,
+.usercontrols > table > tbody > tr > th {
+  padding: 31px 7px;
+  /* !important; */
+
+}
+.usercontrols > table > tbody > tr > th {
+  font-weight: bold;
+  line-height: 1.414;
+  color: #bb77cc;
+}
+.usercontrols > table > tbody > tr > th p {
+  font-size: 11px;
+  font-weight: normal;
+  color: #666666;
+}
+.usercontrols > table > tbody > tr > th p:first-child {
+  margin-top: 15px;
+}
+.usercontrols > table > tbody > tr > th code {
+  font-size: 11px;
+  font-weight: normal;
+}
+.usercontrols > table > tbody > tr > td fieldset > ol > li:first-child {
+  margin-top: 0;
+}
+.usercontrols > table > tbody > tr > td fieldset.actions {
+  margin-top: 0px !important;
+}
+.usercontrols > table > tbody > tr > td fieldset.actions button,
+.usercontrols > table > tbody > tr > td fieldset.actions a {
+  float: left;
+}
+.usercontrols > table > tbody > tr > td aside > em {
+  color: #999999;
+}
+.usercontrols dl dd {
+  margin-bottom: 0.5em;
+}
+.usercontrols li.hover-reveal-region {
+  width: 100px;
+  position: relative;
+}
+.usercontrols li.hover-reveal-region button.delete-button {
+  cursor: pointer;
+  overflow: hidden;
+  text-indent: -999px;
+  border: none;
+  background: transparent none no-repeat 50% 50%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  height: 16px;
+  width: 16px;
+  margin: -8px 0 0 0;
+  background-image: url(../images/delete.png.8f0ebcb45d7ba71a541d4781329f4a6900c7ee65.png);
+}
+.usercontrols .comboMenu {
+  width: 15em;
+}
+.usercontrols .radiotabwidth {
+  width: 150px;
+}
+.usercontrols .radiotabwidth .tabcontent {
+  width: 200px;
+  height: 200px;
+}
+.usercontrols ol.panels {
+  margin-right: -25px;
+}
+.usercontrols ol.panels > li {
+  position: relative;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+.usercontrols .sales-pathway {
+  width: 700px;
+}
+.usercontrols .for-how-long-input {
+  margin-bottom: 10px;
+}
+.usercontrols .for-how-long-selection-message {
+  margin-right: 10px;
+  vertical-align: middle;
+  font-size: 19px;
+}
+.usercontrols .for-how-long-slidero {
+  zoom: 1;
+  width: 300px;
+}
+.usercontrols .for-how-long-slidero:before,
+.usercontrols .for-how-long-slidero:after {
+  content: "";
+  display: table;
+}
+.usercontrols .for-how-long-slidero:after {
+  clear: both;
+}
+.usercontrols .self-healing-remove-demo {
+  cursor: pointer;
+}
+.tabheader button.call-to-action {
+  float: right;
+  margin-top: -35px;
+  margin-right: 25px;
+}
+
